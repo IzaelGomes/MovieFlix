@@ -1,0 +1,41 @@
+.savedMovies{
+  max-width: 800px;
+  display: flex;
+  margin: 14px auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.savedMovies ul{
+  width: 100%;
+}
+
+.savedMovies li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+
+}
+.savedMovies a{
+  text-decoration: none;
+  color:#116feb;
+}
+
+.savedMovies button{
+  margin-left: 10px;
+}
+.image{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.image img{
+  max-width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  
+}
